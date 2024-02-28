@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes Y Objectos</title>
+</head>
+
+<body>
+    <h1>Platos Tipicos</h1>
+    <!-- etiqueta \<img> -->
+
+    <h2>Bandeja Paisa</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3GoNRoNcFsevTFV2W9sYpp9sbHDQR7B4sps0UuUiZhQ&s"
+        alt="bandeja paisa">
+
+    <!-- etiqueta \<map> -->
+
+    <h2>Lechona</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/LEchona_%28Spain%29.JPG/1200px-LEchona_%28Spain%29.JPG"
+        alt="lechona" width="400" heigth="300" class="plato-tipico-lechona" usemap="#plato-lechona">
+    <p>Haz Click En La Imagen</p>
+    <map name="plato-lechona" class="plato-tipico-lechona-class">
+
+        <!-- etiqueta \<area> -->
+
+        <area shape="rect" coords="0,0,200,300" href="https://es.wikipedia.org/wiki/Lechona" alt="Lechona"
+            target="_blank" title="area1">
+        <area shape="rect" coords="200,0,400,300" href="https://www.youtube.com/watch?v=HZa9h3x9PxQ" alt="Lechona"
+            target="_blank" title="area2">
+    </map>
+
+     <!-- etiqueta \<object> -->
+        <h2>platos tipicos de colombia</h2>
+        <object data="https://www.youtube.com/embed/eveDqLmAYu4?si=CH_Lh3c2eV8BWaGV" type="video/mp4">
+    
+        </object>
+
+        
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <h1>Ejercicio Formularios</h1>
+
+    <form>
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            Nombres:
+            <input type="text" placeholder="Ingrese sus Nombres" name="Nombres">
+            <br /> <br />
+            Apellidos:
+            <input type="text" placeholder="Ingrese sus Apellidos" size="20" name="Apellidos">
+            <br /> <br />
+            Contraseña:
+            <input type="password" name="Contraseña" value="">
+            <br /><br />
+            DNI:
+            <input type="number" maxlength="10" size="9" name="DNI">
+            <br /><br />
+            Sexo <br />
+            <input type="radio" value="Hombre" name="Sexo" />Hombre <br />
+            <input type="radio" value="Mujer" name="Sexo" />Mujer
+            <br /><br />
+            Fichero adjunto <br/>
+            <input type="file" name="adjunto" /><br/><br/>
+            
+
+            <input type="checkbox" name="suscripcion" /> Suscribirme Al Boletin De Novedades <br /><br />
+
+            <input type="submit" name="guardar" value="Guardar Cambios" />
+            <input type="reset" name="Borrar" value="Borrar Los Datos" />
+            <br /><br />
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros Datos</legend>
+
+            <label for="Provincia">Provincia</label> <br />
+            <select id="Provincia" name="Provincia">
+                <option value="" selected="selected">- selecciona -</option>
+                <option value="Guajira">La Guajira</option>
+                <option value="Cesar">Cesar</option>
+                <option value="magd">Magdalena</option>
+                <option value="otro">Otro</option>
+
+            </select><br /><br/>
+            <label for="Fech-Nac">Fecha De Nacimiento</label><br/>
+            <input type="date" name="Fech-Nac" ><br/><br/>
+
+            <label for="tm-int">Temas De Interes</label> <br />
+            <select id="tm-int" name="tm-int" size="3">
+                <option value="platos" selected="selected">Platos Tipicos De Colombia</option>
+                <option value="reg">regiones de colombia</option>
+                <option value="cult">culturas de colombia</option>
+                <option value="dep">Departamentos</option>
+            </select><br/><br/>
+
+          
+
+        </fieldset>
+    </form>
+
+
+
+</body>
+
+</html>
